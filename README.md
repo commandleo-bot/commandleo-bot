@@ -165,8 +165,9 @@ Linux administration and DevOps fundamentals including commands, permissions, pr
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=commandleo-bot&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
-<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=commandleo-bot&layout=compact&theme=tokyonight&hide_border=true" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=commandleo-bot&show_icons=true&theme=tokyonight&hide_border=true" />
+
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=commandleo-bot&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" />
 
 <br/><br/>
 
