@@ -1,0 +1,33 @@
+<svg width="1200" height="260" viewBox="0 0 1200 260" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#07111f"/>
+    <stop offset="55%" stop-color="#0b1d33"/>
+    <stop offset="100%" stop-color="#031018"/>
+  </linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#00d9ff"/>
+    <stop offset="100%" stop-color="#67f7ff"/>
+  </linearGradient>
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="5" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+</defs>
+<rect width="1200" height="260" rx="24" fill="url(#bg)"/>
+<g opacity=".16" stroke="#00d9ff">
+  <path d="M0 45H1200M0 90H1200M0 135H1200M0 180H1200M0 225H1200"/>
+  <path d="M60 0V260M180 0V260M300 0V260M420 0V260M540 0V260M660 0V260M780 0V260M900 0V260M1020 0V260M1140 0V260"/>
+</g>
+<g fill="none" stroke="url(#cyan)" stroke-width="3" filter="url(#glow)">
+  <path d="M80 190 C170 80, 240 210, 330 105 S500 75, 580 165 S750 230, 840 100 S1010 80, 1120 165"/>
+  <circle cx="80" cy="190" r="7" fill="#00d9ff"/>
+  <circle cx="330" cy="105" r="7" fill="#00d9ff"/>
+  <circle cx="580" cy="165" r="7" fill="#00d9ff"/>
+  <circle cx="840" cy="100" r="7" fill="#00d9ff"/>
+  <circle cx="1120" cy="165" r="7" fill="#00d9ff"/>
+</g>
+<text x="600" y="86" text-anchor="middle" fill="#ffffff" font-family="Arial, sans-serif" font-size="42" font-weight="700">CLOUD • DEVOPS • AUTOMATION</text>
+<text x="600" y="132" text-anchor="middle" fill="#00d9ff" font-family="monospace" font-size="22">AWS  |  LINUX  |  DOCKER  |  KUBERNETES  |  CI/CD</text>
+<text x="600" y="214" text-anchor="middle" fill="#9fb8c8" font-family="monospace" font-size="18">BUILDING • AUTOMATING • LEARNING</text>
+</svg>
